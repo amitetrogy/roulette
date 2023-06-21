@@ -110,7 +110,7 @@ const services = [
   ],},
     
     ],  },
-    { option: 'Lego', icon: 'icon3', color: 'rgba(177, 255, 197, 0.8)', questions: [
+    { option: 'Lego', icon: 'icon3', color: 'rgba(199, 255, 177, 0.8)', questions: [
       { 
         question: '?כמה פעולות ניתן לעשות במערכת הלגו',
     answerOptions: [
@@ -129,7 +129,7 @@ const services = [
   ],},
   
     ],  },
-    { option: 'תשתיות ליבה', icon: 'icon3', color: 'rgba(199, 255, 177, 0.8)', questions: [
+    { option: 'תשתיות ליבה', icon: 'icon3', color: 'rgba(177, 255, 197, 0.8)', questions: [
       { 
         question: '?איזו מערכת בענף יסודות אחראית על הזדהות אפליקטיבית באמ"ן',
     answerOptions: [
