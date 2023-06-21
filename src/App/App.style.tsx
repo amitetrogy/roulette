@@ -34,10 +34,9 @@ export const RoulleteDiv = styled('div')({
 });
 
 export const SpinButton = styled('div')({
-    width: '7%',
     color:"rgb(11 25 51)",
     fontFamily: 'sans-serif',
-    fontSize: '17px',
+    fontSize: '27px',
     fontWeight: 'bold',
 });
 
