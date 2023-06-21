@@ -9,7 +9,7 @@ export const MainLayout = styled('div')({
     overflowY: 'hidden',
     overflowX: 'hidden',
     alignItems: 'center',
-    backgroundColor: 'rgb(204 232 249)',
+    backgroundColor: '#a8bce759',
     fontFamily: 'revert'
 });
 
@@ -29,8 +29,8 @@ export const SeconderyHeader = styled('div')({
  });
 
 export const RoulleteDiv = styled('div')({
-    marginBottom: '1%',
-    marginTop:'2%',
+    marginBottom: '0.5%',
+    marginTop:'1%',
 });
 
 export const SpinButton = styled('div')({

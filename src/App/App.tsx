@@ -135,8 +135,10 @@ const MainPage: React.FC = () => {
                   selectedAnswer === null
                     ? 'rgb(11 25 51)'
                     : selectedAnswer === answer.isCorrect
+                    ? answer.isCorrect
                       ? '#AFE1AF'
                       : '#F88379'
+                    : '#AFE1AF',
               }}
               onClick={() => handleAnswerClick(answer.isCorrect)}
               disabled={buttonsDisabled}
