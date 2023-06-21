@@ -134,7 +134,7 @@ const MainPage: React.FC = () => {
                 backgroundColor:
                   selectedAnswer === null
                     ? 'rgb(11 25 51)'
-                    : selectedAnswer === answer.isCorrect && answer.isCorrect
+                    : selectedAnswer === answer.isCorrect
                       ? '#AFE1AF'
                       : '#F88379'
               }}
