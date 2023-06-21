@@ -1,4 +1,4 @@
-import { Button, Dialog, styled } from '@mui/material';
+import { Dialog, styled } from '@mui/material';
 import Confetti  from 'react-dom-confetti';
 
 export const MainLayout = styled('div')({
