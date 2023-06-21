@@ -102,8 +102,8 @@ const MainPage: React.FC = () => {
         radiusLineWidth={1}
         />
     </RoulleteDiv>
-    <SpinButton variant="contained" onClick={handleSpinClick}>
-     SPIN
+    <SpinButton>
+     Press ENTER
     </SpinButton>
     <Popup open={dialogOpen} onClose={handleCloseDialog}>
   <DialogTitle style={{ alignSelf: 'center', fontSize: '60px',
@@ -134,11 +134,9 @@ const MainPage: React.FC = () => {
                 backgroundColor:
                   selectedAnswer === null
                     ? 'rgb(11 25 51)'
-                    : selectedAnswer === answer.isCorrect
-                    ? answer.isCorrect
+                    : selectedAnswer === answer.isCorrect && answer.isCorrect
                       ? '#AFE1AF'
                       : '#F88379'
-                    : '#AFE1AF',
               }}
               onClick={() => handleAnswerClick(answer.isCorrect)}
               disabled={buttonsDisabled}

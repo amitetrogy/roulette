@@ -33,14 +33,12 @@ export const RoulleteDiv = styled('div')({
     marginTop:'2%',
 });
 
-export const SpinButton = styled(Button)({
-    backgroundColor:'rgb(11 25 51)',
+export const SpinButton = styled('div')({
     width: '7%',
-    color:"#dedede",
+    color:"rgb(11 25 51)",
     fontFamily: 'sans-serif',
-    fontSize: '15px',
+    fontSize: '17px',
     fontWeight: 'bold',
-    borderRadius: 15
 });
 
 export const Popup = styled(Dialog)({
