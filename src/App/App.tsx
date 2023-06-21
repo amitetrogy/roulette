@@ -91,7 +91,7 @@ const MainPage: React.FC = () => {
         prizeNumber={prizeNumber}
         data={services.map((item) => ({
           option: item.option,
-          style: { backgroundColor: item.color, fontFamily: 'sans-serif',maxHeight: ' 600px !important',maxWidth: '600px !important', },
+          style: { backgroundColor: item.color, fontFamily: 'sans-serif', maxHeight: ' 600px !important',maxWidth: '600px !important',color: "pink" },
           customIcon: <img src={item.icon} alt={item.option} />,
         }))}
         onStopSpinning={onStopSpinning}
@@ -99,7 +99,9 @@ const MainPage: React.FC = () => {
         outerBorderWidth={5}
         innerBorderColor={'#f2f2f2'}
         radiusLineColor={'#dedede'}
-        radiusLineWidth={1}
+        radiusLineWidth={0.2}
+        fontSize={15}
+        
         />
     </RoulleteDiv>
     <SpinButton>
@@ -107,7 +109,8 @@ const MainPage: React.FC = () => {
     </SpinButton>
     <Popup open={dialogOpen} onClose={handleCloseDialog}>
   <DialogTitle style={{ alignSelf: 'center', fontSize: '60px',
-    fontFamily: 'fantasy',
+    fontFamily: 'revert',
+    fontWeight: 'bold',
     color: services[prizeNumber].color }}>{rolledOption}</DialogTitle>
   <DialogContent
     style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '32px'}}
@@ -129,8 +132,8 @@ const MainPage: React.FC = () => {
               key={index}
               variant="contained"
               style={{
-                fontSize: '20px',
-                fontWeight: 'bold',
+                fontSize: '18px',
+                fontWeight: 500,
                 backgroundColor:
                   selectedAnswer === null
                     ? 'rgb(11 25 51)'
