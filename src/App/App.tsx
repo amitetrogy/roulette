@@ -22,6 +22,7 @@ const MainPage: React.FC = () => {
     return () => {
       document.removeEventListener('keydown', handleKeyPress);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleSpinClick = () => {
